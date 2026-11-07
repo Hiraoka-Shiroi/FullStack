@@ -12,11 +12,12 @@ const user = {
     address: {
         city: "Москва",
         zipCode: 555444,
-    }
+    },
     sayHi: () => console.log("Привет!"),
 }
 console.log(user.login);
-console.log(user[password]);
+console.log(user["password"]);
+console.log(user.password);
 console.log(user["last-auth"]);
 user.sayHi();
 
@@ -26,3 +27,9 @@ const product = {
     quantity: 5,
     available: true
 };
+
+let firstPart = "likes";
+let userInfo = {
+    [firstPart]: true,
+}
+console.log(userInfo[firstPart]);
