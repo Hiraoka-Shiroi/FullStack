@@ -32,4 +32,3 @@ let firstPart = "likes";
 let userInfo = {
     [firstPart]: true,
 }
-console.log(userInfo[firstPart]);
